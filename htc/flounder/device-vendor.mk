@@ -1,4 +1,4 @@
-# [2016-09-27] Auto-generated file, do not edit
+# [2016-10-03] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/htc/flounder/flounder-vendor-blobs.mk)
 

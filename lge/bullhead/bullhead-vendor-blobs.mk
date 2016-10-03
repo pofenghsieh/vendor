@@ -1,4 +1,4 @@
-# [2016-09-27] Auto-generated file, do not edit
+# [2016-10-03] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \

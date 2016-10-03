@@ -1,9 +1,9 @@
-977341b85a9ccdf73e204a2622dee8661cfeef5d  AndroidBoardVendor.mk
-ac400fe41b7908ed490d62fde9b63be21c6fb933  Android.mk
-ee5a303cfadb331f875592bdc13027d1fb6bca39  BoardConfigVendor.mk
-a8b88c10bedbb210eff5af9d730e742dce87366d  bullhead-vendor-blobs.mk
-a857b26f6a1cb8472670ba48b43e13d470f6426b  device-vendor.mk
-494759107be27c3ef500023b76c978101e9ed178  proprietary/app/TimeService/TimeService.apk
+1a008d5c46e449a4a43cdca8df3e6e15b8e752f0  AndroidBoardVendor.mk
+a6243f3869327bd10aadafcb93e06563755ae7c4  Android.mk
+6dc1a153a64baf432dece6726a48e825c53688b7  BoardConfigVendor.mk
+7da5c56b7035d8a54ce7040f6f204c44a9c33238  bullhead-vendor-blobs.mk
+2b6706fa47ee9becf571926f96b807368909306c  device-vendor.mk
+5a75818774eb60a92f55a82dbf7571e92997ad10  proprietary/app/TimeService/TimeService.apk
 cc895189ef6400c81924bcc27a8b727ae1921926  proprietary/bin/ATFWD-daemon
 5373adae9ca35dfbdf71819c4251e1601a454fe9  proprietary/bin/btnvtool
 36b8019f715af6a5dbbd10d0c6591ebc4bbc9a3f  proprietary/bin/cnd
@@ -31,7 +31,7 @@ bef9d872b1e387cefe8f7bb025154480da4ca79f  proprietary/bin/port-bridge
 430fea585e11b5067af970d6068b7a00572914ae  proprietary/bin/radish
 b0bb90de68b50983325481dc46b1827dac773677  proprietary/bin/rmt_storage
 ad3b75a6d55ee9b518a7eb7d5594af0ef5ea90e9  proprietary/bin/service
-f5f9471825ba6af03d43a037a650221cb2fdfaa2  proprietary/bin/servicemanager
+92cbf14dd22738657e5f8e4b9d797c0b07060e98  proprietary/bin/servicemanager
 aa9cff9abac0f1cef9993d95c97fd811c7a8efbc  proprietary/bin/subsystem_ramdump
 257e19d50a9ba751aeeb958a50827f177d5bd8cd  proprietary/bin/thermal-engine
 846a3c067bbb2602a5dbe100e39831c6a321f40f  proprietary/bin/time_daemon
@@ -64,7 +64,7 @@ e451e905f0c7336d95709f05611bd1b6455b5764  proprietary/etc/permissions/qti_permis
 0811d2ec4582d99cf45dd2e1ca533c31f0b2b4cb  proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml
 31ccc29adf9f580f7ac901c7b2d3c09391d06cab  proprietary/etc/thermal-engine-8992.conf
 0855c005d64e54b8fb33dbcb7a7900cd84df46c8  proprietary/framework/cneapiclient.jar
-333cf39e74c8986d7e198f543f4b1a947e4d5846  proprietary/framework/qcrilhook.jar
+ed502d53634ab6d683d56f240002f90f5fc3d4e7  proprietary/framework/qcrilhook.jar
 b520b4c93a3afa015294a57613f91717a1227234  proprietary/framework/rcsimssettings.jar
 91e5537b8318e7d589f9e1d37af5f550204710ea  proprietary/framework/rcsservice.jar
 beb5a197ab5cb2fdfd951c98ff4b455728422563  proprietary/lib64/hw/audio.primary.msm8992.so
@@ -95,9 +95,9 @@ fd67587913bca3035c090c2efdba323bd92fb36b  proprietary/lib/libmmcamera_interface.
 0eaf309995781fb31a0403b7fb685ddea2657d87  proprietary/lib/libmmjpeg_interface.so
 337a5ef75a677a3e210a48ac8b3d40c279ea8d94  proprietary/lib/libqomx_core.so
 fdd04658694c0627c13904805e91a6a4be2191cd  proprietary/lib/soundfx/libfmas.so
-cdf63b3d8c70156a4e96335664797ae426a743f2  proprietary/priv-app/atfwd/atfwd.apk
-83a2a24df77069b27bf48a20a31e3e9f883bebe9  proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-5b1920cd3c946a3fb3388c6d6041344321b59470  radio/bootloader.img
+3750526ae439d9bfd1dc12231fde93ef53a80493  proprietary/priv-app/atfwd/atfwd.apk
+f65014b80029587dc14342854dae6695d94fcff6  proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+26d599b135f4b22ea638aa4b261134e1144e3e8a  radio/bootloader.img
 1cf0ba6d770b2e9a60458f3ca530b403bbe2e9ff  radio/radio.img
 e450247436aff89af8f479f8ad4782de3398805f  vendor/app/datastatusnotification/datastatusnotification.apk
 71d9036c5032398f79cf7ea1270a6071559b3db2  vendor/app/ims/ims.apk
@@ -105,7 +105,7 @@ e450247436aff89af8f479f8ad4782de3398805f  vendor/app/datastatusnotification/data
 cb4a45c66b4c1dac80f41f38edcb7a36ad9e9bbf  vendor/bin/qseecomd
 089382635052af6c14729dd2c598515079eded23  vendor/bin/qti
 1b8fc530b19810dc2a2ad5ee414cb4506a7e65c0  vendor/bin/slim_daemon
-69931a5e4713685ca6ec0b7eeef34f9369dd62e5  vendor-board-info.txt
+c93199ac2a52a4d08b802f66a73381fd18d97fb0  vendor-board-info.txt
 0391ccfd3ed10033d14219cafc6a1367af67c707  vendor/etc/audio_effects.conf
 08c91d6b07dbae7cb7ffe583466e39bca144031d  vendor/etc/msm_irqbalance.conf
 02204355bf29ceb0460cd53e6716552bb9d9b05f  vendor/etc/perf-profile0.conf

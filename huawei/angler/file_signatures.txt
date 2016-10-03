@@ -1,10 +1,10 @@
-977341b85a9ccdf73e204a2622dee8661cfeef5d  AndroidBoardVendor.mk
-3fc946a159c1259262152154edfba7adc8b00115  Android.mk
-b2d13d0cbe60878469257043c86478efa68a9cda  angler-vendor-blobs.mk
-640facdc626dc199a520b29c9ee896058e9c064b  BoardConfigVendor.mk
-656579605e66541fad10d4c51b140118d989df37  device-vendor.mk
-001832aeef9c8200510df6d9ada13770cf82a64e  proprietary/app/HwMMITest/HwMMITest.apk
-71b5fb8986e28786569bd75d82b43b2fb6e63016  proprietary/app/HwSarControlService/HwSarControlService.apk
+1a008d5c46e449a4a43cdca8df3e6e15b8e752f0  AndroidBoardVendor.mk
+31f4682e0b6cd341d0b101a405bce8670f5aaa13  Android.mk
+63a9f618cb10b55d445dec9a7a753253c489315d  angler-vendor-blobs.mk
+36c821811d35b0b1076dd58375e630f417c9f22c  BoardConfigVendor.mk
+b65eedb9454187594a448013aff5c785e954d7f6  device-vendor.mk
+b8ad0d9daa30e82c167b40bb84096737f1b458a7  proprietary/app/HwMMITest/HwMMITest.apk
+492c3e50f946f9bc69062a7871f7daf9264a69f7  proprietary/app/HwSarControlService/HwSarControlService.apk
 04b5a3df08ccf01164756cfdd5e4743b18ebf0ae  proprietary/bin/fingerprintd
 6b346392dbe482af5121d2c790bc604770cdde17  proprietary/bin/mm-qcamera-app
 8427635825d1800a47d541d9d4148620bddd06aa  proprietary/bin/ssr_setup
@@ -15,8 +15,8 @@ fd7955aa533f5ceff5202cf038f69e5aca160df3  proprietary/etc/gps.conf
 15831adf0e80243042b90c734eea0a68eb8ae9c9  proprietary/etc/permissions/cneapiclient.xml
 1c6be50364d9854e2596b50204fdd7e35f1b40c1  proprietary/etc/permissions/com.android.omadm.service.xml
 9fc58a3d54d20ac1d53bab14608815121aefbce5  proprietary/etc/permissions/qcrilhook.xml
-394ac3a86f3888062fc40ed4c6148e2011d26647  proprietary/framework/com.google.android.camera.experimental2015.jar
-0dba3faf7cdbd825f62d1fb03f05b974bac6f9e8  proprietary/framework/qcrilhook.jar
+5db5f97ef37a231858420ac806ee2d0775ac7fa3  proprietary/framework/com.google.android.camera.experimental2015.jar
+54ac8244df00b5167ad62d25befd43bd7480b8a0  proprietary/framework/qcrilhook.jar
 53dd3a3d2de37c5bcbaddeb93cf684e73c809e93  proprietary/lib64/hw/audio.primary.msm8994.so
 94b2c0059303e192fbb4a21dc3bb45e2739aa84e  proprietary/lib64/hw/gps.msm8994.so
 b1e0eb8136578c0426689165c44f65edb1a8565d  proprietary/lib64/hw/nfc_nci.angler.so
@@ -42,8 +42,8 @@ e3b1027363fa527d317d7d16e866d6b6c14f1e3f  proprietary/lib/libmm-qcamera.so
 53be88b71e4c762b61f0a9eea698a4f562d05e1b  proprietary/lib/libqomx_core.so
 8483a461402f93b1af7261d4570ad51794d4e91f  proprietary/lib/libtinyxml.so
 fdd04658694c0627c13904805e91a6a4be2191cd  proprietary/lib/soundfx/libfmas.so
-383ce9656d10718aca6d773f71c4c49adbd60d0e  proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-c989e17119e61584373ebbf74395811248b672e8  radio/bootloader.img
+d8104ae79e084f584fa154ff380563172f0f1b68  proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+29ec2c08e2598dbc777c2402467ff09e0d28e8fd  radio/bootloader.img
 8c7e0327b485c13e5ca93400c79778a55b665f21  radio/radio.img
 9d5056c84dfe15655ddd89d24a313a111e7c15ed  vendor/app/ims/ims.apk
 4d9d24e550210a2ad903ec957acd3623c8bd338f  vendor/app/TimeService/TimeService.apk
@@ -78,7 +78,7 @@ d1f21a4308362cd6a6ea877904e832f5d8a18532  vendor/bin/rmt_storage
 13a1b53cec9cca92c93446fe4fb320e582d43c4e  vendor/bin/sound_trigger_test
 0f9d569938333f441f97b3a16553f5ff86ca4cc3  vendor/bin/thermal-engine
 e26f9f81c94c767c4d16e5510e9d0e246ad93a7f  vendor/bin/time_daemon
-683ebc77af5b43632c16dd783b6f52cf0fa39399  vendor-board-info.txt
+08a46085a83002ffd483b7173958e93079ccf595  vendor-board-info.txt
 db5398ae1e895859c99e4a09289760bb10dc4e4e  vendor/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb
 a717fc0e6992ac923f6199715e5b15192d582d94  vendor/etc/acdbdata/angler/Angler_General_cal.acdb
 86304a761134ace887bbd98eab85a9d609265d00  vendor/etc/acdbdata/angler/Angler_Global_cal.acdb
@@ -270,7 +270,7 @@ f3ffbbb18d13463c045d1b300d73102832663760  vendor/lib64/libQSEEComAPI.so
 507f821b97b311bd7ca9fd54025bb9c1203dda44  vendor/lib64/libquipc_os_api.so
 5d73a8a66c350b3d65f8bc98db59f01a730b3fc4  vendor/lib64/lib-rcsimssjni.so
 71a30c24ad56d761cfea39f209d839d8d47a837c  vendor/lib64/lib-rcsjni.so
-546360c12f7253fdfe3c2dd25bd266b8f02a34a9  vendor/lib64/libril-qc-qmi-1.so
+f80ab23b5a980ec5f304691eaddeb9b6d9fcd945  vendor/lib64/libril-qc-qmi-1.so
 d800c8007848f2393927bb7fed2ad6065d20ef9b  vendor/lib64/libril-qcril-hook-oem.so
 1ac3db51db595fb985072da0c7d6a7407eefca85  vendor/lib64/librpmb.so
 c1eee37b66b793f7ec767ee0fc1f93e49decf2b8  vendor/lib64/librs_adreno_sha1.so
@@ -514,7 +514,7 @@ b5bd67256160c33131d147b57f72a6cc347b4057  vendor/lib/libqomx_jpegenc_pipe.so
 2ec123f6c1ff1a4b162f98a9233fc09cfb934c03  vendor/lib/libqti-perfd-client.so
 255d958673780309928954e20c6089aa4c2b6ea4  vendor/lib/lib-rcsimssjni.so
 7b9b6ee829f8c29e080611d366cfdd77fd567e18  vendor/lib/lib-rcsjni.so
-223161b1207a450462569f8f895f588d73f5d1fd  vendor/lib/libril-qc-qmi-1.so
+eac2f48f29bbe4af773247cada018db2ce5dc1e6  vendor/lib/libril-qc-qmi-1.so
 b7614e32f0d6446610be5b1520621c67ca39e708  vendor/lib/libril-qcril-hook-oem.so
 cdfbc99306638d30dc53661a882ce34de4021161  vendor/lib/librpmb.so
 de7386eb78f86b3d1b422d98bc66b01be1b865d0  vendor/lib/librs_adreno_sha1.so
@@ -540,7 +540,7 @@ ec10dca444699c68334e53786dadf6033bbb77f6  vendor/lib/libtzdrmgenprov.so
 6b28492ac55b9a3d86993343cf2c8b55240b3420  vendor/lib/libWVStreamControlAPI_L1.so
 33cfb7cd32ed05169a80c5829941e5e20f2f9780  vendor/lib/libxml.so
 437367a6bc3afe879a4c22f966dfe642ff2ac30a  vendor/lib/mediadrm/libdrmclearkeyplugin.so
-37fb2a36ea52d5cf8367346dd7bf5e839eaf7e35  vendor/lib/mediadrm/libwvdrmengine.so
+23055c6a3b3b2e259a5d9a1f4e2d7965e2959564  vendor/lib/mediadrm/libwvdrmengine.so
 392b2150ecd454501a5951874a002ba80e40fc74  vendor/media/LMspeed_508.emd
 2e9e82a710ddeffa2ceb16bbbff980cd4013b3d8  vendor/media/PFFprec_600.emd
 aa6b65413886059d9e2436819833c92cb53591ef  vendor/xbin/wlutil
